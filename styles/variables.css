@@ -1,1 +1,36 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  /* inline-size */
+  --card-inline-size: clamp(375px, 260.56px + 30.52vw, 700px);
+
+  /* fonts */
+  --main-font: "Inter", sans-serif;
+  --accent-font: "PressStart2P", "Fantasy", monospace;
+  --main-font-size: 18px;
+  --main-font-weight: 400;
+  --title-font-weight: 785;
+
+  /* colors */
+  --background-color: #fff;
+  --button-text-color: #fff;
+  --accent-color: rgba(221, 64, 64, 0.8);
+  --stroke-color: rgb(255, 255, 255, 0.5);
+  --link-color: rgba(65, 67, 67, 0.8);
+  --link-weight: 600;
+
+  /* gradient */
+  --background-gradient: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+
+  /*border*/
+  --border: 2px solid #000;
+
+  /* like */
+  --heart-main-body: transparent;
+  --heart-contour: #000;
+  --animation-fill-color: #ff0000;
+}
