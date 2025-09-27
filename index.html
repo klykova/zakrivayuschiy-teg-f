@@ -16,18 +16,19 @@
   <body class="page">
     <header class="header card-width">
       <h1 class="page__title">&lt;/HTML&gt;</h1>
-      <h2 class="page__logo">Закрывающий тег</h2>
+      <p class="page__logo">Закрывающий тег</p>
     </header>
     <main class="main card-width">
       <section class="card">
-        <h3 class="card__header">
+        <h2 class="card__header">
           Фритрек и нулевой спринт: Подготовка к работе
-        </h3>
+        </h2>
         <div class="image-container">
           <img
-            class="card__image image-cat"
+            class="card__image image-saturate"
             src="./images/cat.jpg"
             alt="кошка"
+            loading="lazy"
           />
           <span class="image__label">&lt;мяу&gt;</span>
         </div>
@@ -37,7 +38,7 @@
           знания могут повлиять на ваше будущее.
         </p>
         <p class="card__description">Была в предвкушении нового.</p>
-        <button class="card__icon-button" type="button">
+        <button class="card__icon-button" type="button" aria-label="Лайк">
           <svg
             class="like-icon"
             width="39"
@@ -45,6 +46,7 @@
             viewBox="0 0 39 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
             <g class="heart">
               <path
@@ -75,9 +77,14 @@
         </button>
       </section>
       <section class="card">
-        <h3 class="card__header">1 спринт: Я — чистый лист</h3>
-        <div class="image-container image-simpsons">
-          <img class="card__image" src="./images/simpsons.jpg" alt="граффити" />
+        <h2 class="card__header">1 спринт: Я — чистый лист</h2>
+        <div class="image-container image-hue-rotate">
+          <img
+            class="card__image"
+            src="./images/simpsons.jpg"
+            alt="граффити"
+            loading="lazy"
+          />
           <span class="image__label">&lt;карамба&gt;</span>
         </div>
         <p class="card__description">
@@ -90,7 +97,7 @@
         <p class="card__description">
           Ура, наконец-то я исполню свою школьную мечту! Но а вдруг не выйдет?
         </p>
-        <button class="card__icon-button" type="button">
+        <button class="card__icon-button" type="button" aria-label="Лайк">
           <svg
             class="like-icon"
             width="39"
@@ -98,6 +105,7 @@
             viewBox="0 0 39 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
             <g class="heart">
               <path
@@ -128,12 +136,13 @@
         </button>
       </section>
       <section class="card">
-        <h3 class="card__header">1 спринт: А если не получится?</h3>
+        <h2 class="card__header">1 спринт: А если не получится?</h2>
         <div class="image-container">
           <img
-            class="card__image image-graffiti"
+            class="card__image image-hue-rotate-saturate"
             src="./images/graffiti.jpg"
             alt="граффити"
+            loading="lazy"
           />
           <span class="image__label">&lt;сомнения!?&gt;</span>
         </div>
@@ -146,7 +155,7 @@
           Только прошла первый спринт, сдала проект и волновалась, что ничего не
           успеваю.
         </p>
-        <button class="card__icon-button" type="button">
+        <button class="card__icon-button" type="button" aria-label="Лайк">
           <svg
             class="like-icon"
             width="39"
@@ -154,6 +163,7 @@
             viewBox="0 0 39 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
             <path
               class="contour"
@@ -189,12 +199,13 @@
         </button>
       </section>
       <section class="card">
-        <h3 class="card__header">2 спринт: Погоня за идеалом</h3>
+        <h2 class="card__header">2 спринт: Погоня за идеалом</h2>
         <div class="image-container">
           <img
-            class="card__image image-seasame-street"
+            class="card__image image-sepia"
             src="./images/seasame_street.jpg"
             alt="игрушка повесилась на заборе"
+            loading="lazy"
           />
           <span class="image__label">&lt;упс&gt;</span>
         </div>
@@ -207,7 +218,7 @@
           старались просто сделать.
         </p>
         <p class="card__description">Хотелось всего и сразу.</p>
-        <button class="card__icon-button" type="button">
+        <button class="card__icon-button" type="button" aria-label="Лайк">
           <svg
             class="like-icon"
             width="39"
@@ -215,6 +226,7 @@
             viewBox="0 0 39 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
             <g class="heart">
               <path
@@ -245,12 +257,13 @@
         </button>
       </section>
       <section class="card">
-        <h3 class="card__header">2 спринт: О тех, кто рядом</h3>
+        <h2 class="card__header">2 спринт: О тех, кто рядом</h2>
         <div class="image-container">
           <img
-            class="card__image image-ray"
+            class="card__image image-invert"
             src="./images/ray.jpg"
             alt="морской скат"
+            loading="lazy"
           />
           <span class="image__label">&lt;бульк&gt;</span>
         </div>
@@ -266,7 +279,7 @@
           Появилось понимание, что можно не только плавать в море информации, но
           и дышать.
         </p>
-        <button class="card__icon-button" type="button">
+        <button class="card__icon-button" type="button" aria-label="Лайк">
           <svg
             class="like-icon"
             width="39"
@@ -274,6 +287,7 @@
             viewBox="0 0 39 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
             <g class="heart">
               <path
@@ -304,12 +318,13 @@
         </button>
       </section>
       <section class="card">
-        <h3 class="card__header">3 спринт: Обходные стратегии</h3>
+        <h2 class="card__header">3 спринт: Обходные стратегии</h2>
         <div class="image-container">
           <img
-            class="card__image image-sponge_bob"
+            class="card__image image-blur"
             src="./images/sponge_bob.jpg"
             alt="граффити спанч боб"
+            loading="lazy"
           />
           <span class="image__label">&lt;квадратное всё&gt;</span>
         </div>
@@ -319,7 +334,7 @@
           посмотреть на задачу под другим углом.
         </p>
         <p class="card__description">
-          Уже совсем за<a
+          <!-- Уже совсем за<a
             class="card__text-link"
             target="_blank"
             href="https://doka.guide/css/flexbox-guide/"
@@ -330,9 +345,10 @@
             target="_blank"
             href="https://doka.guide/css/grid-guide/"
             >grid</a
-          >анулась.
+          >анулась. -->
+          Уже совсем заflexилась и немного gridанулась.
         </p>
-        <button class="card__icon-button" type="button">
+        <button class="card__icon-button" type="button" aria-label="Лайк">
           <svg
             class="like-icon"
             width="39"
@@ -340,6 +356,7 @@
             viewBox="0 0 39 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
             <path
               class="contour"
@@ -370,12 +387,13 @@
         </button>
       </section>
       <section class="card">
-        <h3 class="card__header">3 спринт: Когда опускаются руки</h3>
+        <h2 class="card__header">3 спринт: Когда опускаются руки</h2>
         <div class="image-container">
           <img
-            class="card__image image-dog_in_a_blanket"
+            class="card__image image-brightness"
             src="./images/dog_in_a_blanket.jpg"
             alt="собака завернутая в одеяло"
+            loading="lazy"
           />
           <span class="image__label">&lt;иногда стоит сделать паузу&gt;</span>
         </div>
@@ -389,7 +407,7 @@
           Иногда просто нужно было отддохнуть, а иногда сменить обстановку и
           главное понимать, что все еще впереди.
         </p>
-        <button class="card__icon-button" type="button">
+        <button class="card__icon-button" type="button" aria-label="Лайк">
           <svg
             class="like-icon"
             width="39"
@@ -397,6 +415,7 @@
             viewBox="0 0 39 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
             <g class="heart">
               <path
@@ -427,12 +446,13 @@
         </button>
       </section>
       <section class="card">
-        <h3 class="card__header">«Сейчас я здесь»</h3>
+        <h2 class="card__header">«Сейчас я здесь»</h2>
         <div class="image-container">
           <img
-            class="card__image image-x-ray_hand"
+            class="card__image image-brightness-invert"
             src="./images/x-ray_hand.jpg"
             alt="рентген руки. рука показывает знак ок"
+            loading="lazy"
           />
           <span class="image__label">&lt;прорвёмся&gt;</span>
         </div>
@@ -445,7 +465,7 @@
           есть результат.
         </p>
         <p class="card__description">Уже немного набила руку и это радует.</p>
-        <button class="card__icon-button" type="button">
+        <button class="card__icon-button" type="button" aria-label="Лайк">
           <svg
             class="like-icon"
             width="39"
@@ -453,6 +473,7 @@
             viewBox="0 0 39 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
             <g class="heart">
               <path

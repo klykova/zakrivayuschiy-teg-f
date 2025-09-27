@@ -7,15 +7,11 @@
   --accent-font: "PressStart2P", "Fantasy", monospace;
   --main-font-size: 18px;
   --main-font-weight: 400;
-  --title-font-weight: 785;
 
   /* colors */
   --background-color: #fff;
   --button-text-color: #fff;
-  --accent-color: rgba(221, 64, 64, 0.8);
-  --stroke-color: rgb(255, 255, 255, 0.5);
-  --link-color: rgba(65, 67, 67, 0.8);
-  --link-weight: 600;
+  --stroke-color: rgb(255, 255, 255, 1);
 
   /* gradient */
   --background-gradient: repeating-linear-gradient(
@@ -33,4 +29,9 @@
   --heart-main-body: transparent;
   --heart-contour: #000;
   --animation-fill-color: #ff0000;
+
+    /* для ссылок links 
+  --accent-color: rgba(221, 64, 64, 0.8);
+  --link-color: rgba(65, 67, 67, 0.8);
+  --link-weight: 600; */
 }
