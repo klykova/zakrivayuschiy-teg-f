@@ -1,1 +1,1 @@
-сайт на git pages: https://klykova.github.io/zakrivayuschiy-teg-f/
+https://github.com/klykova/zakrivayuschiy-teg-f
